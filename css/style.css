@@ -18,6 +18,8 @@ body{
     border-radius: 5px;
     font-size: 20px;
     font-weight: 600;
+    color: #005FAC;
+    cursor: pointer;
 }
 h2{
     font-size: 40px;
@@ -123,7 +125,35 @@ header p{
     margin-right: 10px;
     color: #16D887;
 }
-
-
-
-
+/* ========================Plan area======================== */
+#plan_section{
+    text-align: center;
+}
+.plan_container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.plan_container h3{
+    margin-top: 30px;
+    font-size: 30px;
+}
+.plan_container span{
+    display: block;
+    color: #737272;
+    margin-top: 16px;
+    font-size: 25px;
+}
+/* ===========================Advice Area====================== */
+#advice_area{
+    margin: 130px 0;
+    background:linear-gradient(to right,#005eac,#005fac00),url("../img/watch.png") ;
+    color: #fff;
+}
+.advice_text{
+    padding: 59px 64px;
+    width: 60%;
+}
+.advice_text .btn{
+    margin-top: 24px;
+}
