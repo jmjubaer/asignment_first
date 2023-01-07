@@ -1,0 +1,74 @@
+/* ===============================Common CSS============================== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    width: 1140px;
+    max-width: 98%;
+    margin: auto;
+}
+.btn{
+    padding: 20px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+h2{
+    font-size: 40px;
+}
+/* ==================================Header area====================================== */
+header{
+    background: url("../img/banner/banner3.png") no-repeat 70%;
+    background-size: cover;
+    color: #fff;
+    text-align: right;
+    padding: 215px 0 166px;
+    overflow: hidden;
+}
+header .banner_text{
+    width: 44%;
+    float: right;
+}
+header h1{
+    font-size: 65px;
+}
+header p{
+    font-size: 16px;
+    line-height: 26px;
+    margin: 26px 0 32px;
+}
+/*========================== Summary area ========================*/
+
+#summary_section{
+    display: flex;
+    justify-content: space-around;
+    margin: 130px 0;
+}
+#summary_section .summary_text{ 
+    margin-top: 240px;
+    width: 36%;
+}
+#summary_section .summary_text p{ 
+    margin: 24px 0 16px;
+    color: #444343;
+}
+#summary_section .summary_text ul li{ 
+    list-style: none;
+    color: #444343;
+    line-height: 26px;
+    margin-bottom: 8px;
+}
+#summary_section .summary_text ul li i{  
+    margin-right: 10px;
+    color: #16D887;
+}
+
+
+
+
