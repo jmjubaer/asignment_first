@@ -134,7 +134,7 @@ header p{
     justify-content: space-between;
     margin-top: 50px;
 }
-.plan_container h3{
+.plan_container h4{
     margin-top: 30px;
     font-size: 30px;
 }
@@ -157,3 +157,69 @@ header p{
 .advice_text .btn{
     margin-top: 24px;
 }
+/*====================== Footer area=========================== */
+footer{
+    background: #000;
+    color: #fff;
+    padding: 130px 0;
+}
+#footer_area{
+    display: flex;
+    justify-content: space-between;
+}
+#footer_area .footer_left{ 
+    width: 44%;
+}
+footer h3{
+    font-size: 45px;
+}
+footer p{
+    margin: 16px 0 8px;
+}
+footer span{
+    margin-top: 16px;
+    display: block;
+}
+footer ul{
+    margin-top: 32px;
+    display: flex;
+    list-style: none;
+}
+footer ul li{
+    margin-right: 17px;
+}
+.footer_right h5{
+    font-weight: 600;
+    font-size: 25px;
+}
+.footer_right{
+    width: 40%;
+}
+.footer_right form{
+    margin-top: 30px;
+}
+.footer_right form input[type="email"]{
+    display: block;
+    padding: 21px;
+    border-radius: 5px;
+    width: 100%;
+    background: transparent;
+    color: #F3F3F3;
+    outline: none;
+    border: 1px solid #F3F3F3;
+}
+.footer_right form input[type="email"]::placeholder{
+    color: #F3F3F3;
+}
+.footer_right form input[type="submit"]{
+    display: block;
+    padding: 20px 36px;
+    font-size: 20px;
+    border: none;
+    margin-top: 16px;
+    border-radius: 5px;
+    color: #005FAC;
+}
+
+
+
